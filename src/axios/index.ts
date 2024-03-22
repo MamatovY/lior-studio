@@ -2,7 +2,7 @@ import axios from 'axios'
 import { IFormData } from '../Store/types/index'
 
 const instance = axios.create({
-	baseURL: 'http://5.35.84.107:8080/',
+	baseURL: 'https://5.35.84.107:8080/',
 	headers: {
 		'Content-Type': 'application/json',
 	},
