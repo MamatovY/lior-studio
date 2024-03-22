@@ -1,0 +1,111 @@
+.title {
+    margin-top: 80px;
+    color: rgb(255, 255, 255);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 120.83%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media (max-width:1290px) {
+    .title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:991px) {
+    .title {
+        font-size: 35px;
+    }
+}
+
+.services_wp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0 25px;
+}
+
+.services_img {
+    width: 50%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.services_right {
+    width: 45%;
+}
+
+.right_title {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 20px;
+
+    li {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 24px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+
+        p {
+            text-align: left;
+            color: rgba(255, 255, 255, 0.5);
+            text-transform: none;
+            margin-top: 16px;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 120.83%;
+            letter-spacing: 0%;
+        }
+    }
+}
+
+.el2 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+    img {}
+}
+
+@media (max-width:1440px) {
+    // .services_right {
+    //     max-width: 50%;
+    // }
+}
+
+@media (max-width:1024px) {
+    .services_wp {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .services_wp .services_right {
+        width: 100%;
+    }
+
+    .services_wp .services_img {
+        width: 70%;
+        margin-top: 20px;
+    }
+}
